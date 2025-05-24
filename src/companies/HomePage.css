@@ -1,0 +1,41 @@
+  ul{
+      list-style-type:  none;
+  }
+  
+  .sheet_with_blocks {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+  }
+  
+  .block{
+    width: 300px;
+      height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .location_of_product_name_in_block{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  /* 
+  position: absolute;
+  bottom:0;
+  right:0; 
+  */
+  .location_of_the_assessment_in_the_block{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+  }
+  .star_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  /* звезда */
+  
